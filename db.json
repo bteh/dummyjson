@@ -1,0 +1,7 @@
+{"enabled":true,
+"cc":"onboarding@ddiwork.com",
+"bcc":"superninjatestemail@ddiwork.com",
+"title":"Welcome To DDI {{driver.firstName}}!",
+"body":"You have successfully completed your paperwork and are ready to become a {{client.driverTerm}} with {{client.name}}!\n To log into your {{client.driverTerm}} profile, please go to https://paperwork.ddiwork.com/drm/login.asp and use the following credentials:\n\n Username: {{driver.email}}\n Password: {{driver.password}}",
+"attachments":[{"path":"documents/some.pdf","filename":"Some Important Document.pdf"}]
+}
