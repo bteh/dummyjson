@@ -1,7 +1,36 @@
-{"enabled":true,
-"cc":"onboarding@ddiwork.com",
-"bcc":"superninjatestemail@ddiwork.com",
-"title":"Welcome To DDI {{driver.firstName}}!",
-"body":"You have successfully completed your paperwork and are ready to become a {{client.driverTerm}} with {{client.name}}!\n To log into your {{client.driverTerm}} profile, please go to https://paperwork.ddiwork.com/drm/login.asp and use the following credentials:\n\n Username: {{driver.email}}\n Password: {{driver.password}}",
-"attachments":[{"path":"documents/some.pdf","filename":"Some Important Document.pdf"}]
+
+
+{
+"enabled": true,
+"cc": "onboarding@ddiwork.com",
+"bcc": "superninjatestemail@ddiwork.com",
+"title": "Welcome To DDI {{driver.firstName}}!",
+"body": "You have successfully completed your paperwork and are ready to become a {{client.driverTerm}} with {{client.name}}! To log into your {{client.driverTerm}} profile, please go to https://paperwork.ddiwork.com/drm/login.asp and use the following credentials: Username: {{driver.email}} Password: {{driver.password}}",
+"attachments": [
+{
+"path": "documents/some.pdf",
+"filename": "Some Important Document.pdf"
 }
+]
+},
+{
+"enabled": false,
+"cc": "onboarding@ddiwork.com",
+"bcc": "meganinjatestemail@ddiwork.com",
+"title": "Your Car Insurance Information Needs To Be Updated",
+"body": "Your proof of current car insurance needs to be updated. To log into your {{client.driverTerm}} profile, please go to https://paperwork.ddiwork.com/drm/login.asp: Expiring: {{driver.insuranceExpirationDate}} Please update this information before {{driver.insuranceExpirationDate}} to avoid any delays in your paychecks."
+},
+{
+"enabled": true,
+"cc": "onboarding@ddiwork.com",
+"bcc": "uberninjatestemail@ddiwork.com",
+"title": "Your Motor Vehicle Report (MVR) Is Due",
+"body": "MVR required.",
+"attachments": [
+{
+"path": "documents/mvr.pdf",
+"filename": "MVR Info.pdf"
+}
+]
+}
+
