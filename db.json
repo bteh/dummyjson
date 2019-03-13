@@ -1,5 +1,5 @@
-
-
+{
+"templates": [
 {
 "enabled": true,
 "cc": "onboarding@ddiwork.com",
@@ -33,4 +33,5 @@
 }
 ]
 }
-
+]
+}
